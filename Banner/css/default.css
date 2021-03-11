@@ -1,0 +1,99 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top:0;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style: none;
+    position: absolute;
+    /*位移到Y为0的位置*/
+    /*transform: translateY(0);           /!**IE*!/*/
+    /*-webkit-transform: translateY(0);   /!**Safari and Chrome*!/*/
+    /**动画效果*/
+    transition: all 1s;          /**IE*/
+    -webkit-transition: all 1s;  /**Safari and Chrome*/
+    /*transition: -webkit-transform 1s;         /!**IE*!/*/
+    /*-webkit-transition: -webkit-transform 1s;  /!**Safari and Chrome*!/*/
+}
+
+/*ul li{*/
+    /*width: 100%;*/
+    /*height: 100%;*/
+    /*margin: 0;*/
+/*}*/
+
+.banner{
+    width: 100%;
+    height: 700px;
+    text-align: center;
+}
+
+.banner-title{
+    font-family: "微软雅黑", serif ;
+    font-size: 31px;
+    font-weight: bold;
+    color: #FFFFFF;
+    top: 30%;
+    position: relative;
+}
+
+.navigation{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.navigation-index{
+    width: 10px;
+    height: 100px;
+    position: absolute;
+    overflow: hidden;
+    top: 40%;
+    right: 12px;
+    /*background-color: #92B901;*/
+}
+.navigation-slider{
+    height: 100%;
+}
+.slider-index{
+    position: relative;
+    top: 33%;
+    text-align: center;
+    margin: 6px 2px;
+    height: 6px;
+    width: 6px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.slider-index-on{
+    background-color: #875489;
+}
+
+.index-1{
+
+}
+
+.index-2{
+
+}
+
+.index-3{
+
+}
